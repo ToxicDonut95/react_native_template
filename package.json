@@ -1,7 +1,10 @@
 {
   "name": "jens_react_native_template",
   "version": "1.0.0",
-  "main": "src/App.tsx",
+  "main": "node_modules/expo/AppEntry.js",
+  "expo": {
+    "entryPoint": "./src/App.tsx"
+  },
   "scripts": {
     "start": "jens_react_native_template/node_modules/.bin/expo start",
     "android": "jens_react_native_template/node_modules/.bin/expo start --android",
