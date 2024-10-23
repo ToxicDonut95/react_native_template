@@ -9,7 +9,8 @@
     "start": "jens_react_native_template/node_modules/.bin/expo start",
     "android": "jens_react_native_template/node_modules/.bin/expo start --android",
     "ios": "jens_react_native_template/node_modules/.bin/expo start --ios",
-    "web": "jens_react_native_template/node_modules/.bin/expo start --web"
+    "web": "jens_react_native_template/node_modules/.bin/expo start --web",
+    "lint": "eslint ."
   },
   "dependencies": {
     "expo": "~51.0.28",
@@ -20,6 +21,8 @@
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@types/react": "~18.2.45",
+    "eslint": "^8.57.0",
+    "eslint-config-expo": "~7.1.2",
     "typescript": "^5.1.3"
   },
   "private": true
